@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const App: React.FC = () => {
-  return <main>Hello todo app</main>
+import { Todos } from '#components/todo/Todos.tsx'
+import data from '#data/todo.mock.json'
+
+export const App: React.FC = (): JSX.Element => {
+  const [todos] = useState(data)
+
+  return (
+    <div className="todoapp">
+      <Todos todos={todos} />
+    </div>
+  )
 }
-
-export default App

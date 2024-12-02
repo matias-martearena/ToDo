@@ -1,17 +1,17 @@
 [
   {
     "id": "1",
-    "title": "Lavar la ropa",
-    "completed": false
+    "title": "Aprender TypeScript",
+    "completed": true
   },
   {
     "id": "2",
-    "title": "Comprar alimento de gato",
+    "title": "Proyectos con React y Tailwind",
     "completed": false
   },
   {
     "id": "3",
-    "title": "Prender el horno",
+    "title": "Correcciones de bugs",
     "completed": false
   }
 ]

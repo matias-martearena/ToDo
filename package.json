@@ -7,7 +7,7 @@
     "#components/*": "./src/components/*",
     "#todo/*": "./src/components/todo/*",
     "#data/*": "./src/data/*",
-    "#interfaces/*": "./src/interfaces/*"
+    "#types/*": "./src/types/*"
   },
   "scripts": {
     "dev": "vite",

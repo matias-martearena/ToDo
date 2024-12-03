@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
-import { Header } from '#components/header/Header.tsx'
+import { Header } from '#components/ui/header/Header.tsx'
 import { TodosScreen } from '#components/todo/Todos_screen.tsx'
-import { Footer } from '#components/footer/Footer.tsx'
+import { Footer } from '#components/ui/footer/Footer.tsx'
 
 import {
   type TodoId,

@@ -3,7 +3,7 @@ import './header.css'
 import React from 'react'
 
 import { type TodoTitle } from '#types/Todo.js'
-import { CreateTodo } from '#components/ui/CreateTodo.tsx'
+import { CreateTodo } from '#components/todo/CreateTodo.tsx'
 
 interface HeaderProps {
   onAddTodo: ({ title }: TodoTitle) => void
